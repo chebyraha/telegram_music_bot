@@ -3,12 +3,23 @@ import yt_dlp
 import asyncio
 import requests
 import base64
+import logging
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message, FSInputFile
 from aiogram.filters import Command
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
+
+#Логированние
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("bot.log", encoding="utf-8"),
+        logging.StreamHandler()
+    ]
+)
 
 # Загрузка токена из .env
 load_dotenv()
@@ -157,9 +168,14 @@ async def main():
     dp.message.register(send_welcome, Command("start"))
     dp.message.register(handle_message)
 
+    logging.info("Бот запускается...")
     print("Бот запущен...")
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except Exception as e:
+        logging.error(f"Критическая ошибка: {e}")
+        raise
