@@ -24,6 +24,12 @@ logging.basicConfig(
 # Загрузка токена из .env
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
+ACR_CONFIG = {
+    'host': os.getenv("ACR_HOST"),
+    'access_key': os.getenv("ACR_ACCESS_KEY"),
+    'access_secret': os.getenv("ACR_ACCESS_SECRET"),
+    'timeout': 10
+}
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
