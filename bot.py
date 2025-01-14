@@ -5,15 +5,18 @@ import requests
 import base64
 import logging
 
-from aiogram import Bot, Dispatcher, types
-from aiogram.types import Message, FSInputFile
+from aiogram import Bot, Dispatcher, types, F
+from aiogram.types import Message, FSInputFile, ContentType
 from aiogram.filters import Command
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
+from acrcloud.recognizer import ACRCloudRecognizer
+
 
 #Логированние
 logging.basicConfig(
-    level=logging.INFO,
+#     level=logging.INFO,
+    level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler("bot.log", encoding="utf-8"),
@@ -34,8 +37,67 @@ ACR_CONFIG = {
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
+
+
 # Максимальный размер файла для Telegram (в байтах)
 TELEGRAM_FILE_SIZE_LIMIT = 20 * 1024 * 1024  # 20 MB
+
+def recognize_track_from_audio(audio_path):
+    config = {
+        'host': os.getenv("ACR_HOST"),
+        'access_key': os.getenv("ACR_ACCESS_KEY"),
+        'access_secret': os.getenv("ACR_ACCESS_SECRET"),
+        'timeout': 10
+    }
+
+    recognizer = ACRCloudRecognizer(config)
+
+    with open(audio_path, 'rb') as audio_file:
+        result = recognizer.recognize_by_file(audio_file.name, 0)
+
+    return result
+
+    print(result)
+
+#Обработчик входящих видеофайлов
+@dp.message(F.content_type == ContentType.VIDEO)
+async def handle_video(message: Message):
+    user_id = message.from_user.id
+    video = message.video
+    video_file = await bot.download_file_by_id(video.file_id)
+    user_folder = f'temp/{user_id}'
+    os.makedirs(user_folder, exist_ok=True)
+
+    video_path = os.path.join(user_folder, 'input_video.mp4')
+    audio_path = os.path.join(user_folder, 'output_audio.mp3')
+
+    with open(video_path, 'wb') as f:
+        f.write(video_file.getvalue())
+
+    #Извлечение аудио
+    audio_file = extract_audio_from_video(video_path, audio_path)
+    if not audio_file:
+        await message.reply("❌ Ошибка извлечения аудио.")
+        return
+
+    #Распознование трека
+    try:
+        result = recognize_track_from_audio(audio_file)
+        if 'status' in result and result['status']['code'] == 0:
+            track_info = result['metadata']['music'][0]
+            artist = track_info['artists'][0]['name']
+            title = track_info['title']
+            await message.reply(f"🎵 Распознанный трек: {artist} - {title}")
+        else:
+            await message.reply("❌ Не удалось распознать трек.")
+    except Exception as e:
+        await message.reply(f"❌ Ошибка при распознавании: {e}")
+    finally:
+        #Очистка временных файлов
+        for path in [video_path, audio_path]:
+            if os.path.exists(path):
+                os.remove(path)
+
 
 # Хендлер на команду /start
 @dp.message(Command("start"))

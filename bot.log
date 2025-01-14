@@ -50,3 +50,16 @@
 2025-01-11 13:44:07,369 - WARNING - Sleep for 4.941925 seconds and try again... (tryings = 7, bot id = 7695324456)
 2025-01-11 13:44:17,610 - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2025-01-11 13:44:17,612 - WARNING - Sleep for 5.124282 seconds and try again... (tryings = 8, bot id = 7695324456)
+2025-01-13 15:52:28,735 - INFO - Бот запускается...
+2025-01-13 15:52:28,906 - INFO - Start polling
+2025-01-13 15:52:28,958 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-14 16:17:09,048 - INFO - Бот запускается...
+2025-01-14 16:17:09,225 - INFO - Start polling
+2025-01-14 16:17:09,303 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-14 16:17:32,840 - INFO - Update id=756933780 is handled. Duration 209 ms by bot id=7695324456
+2025-01-14 16:17:45,090 - INFO - Update id=756933781 is handled. Duration 2713 ms by bot id=7695324456
+2025-01-14 16:28:06,400 - DEBUG - Using selector: KqueueSelector
+2025-01-14 16:28:06,400 - INFO - Бот запускается...
+2025-01-14 16:28:06,571 - INFO - Start polling
+2025-01-14 16:28:06,624 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-14 16:28:26,534 - INFO - Update id=756933782 is handled. Duration 9621 ms by bot id=7695324456
