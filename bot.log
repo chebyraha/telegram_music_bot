@@ -63,3 +63,334 @@
 2025-01-14 16:28:06,571 - INFO - Start polling
 2025-01-14 16:28:06,624 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
 2025-01-14 16:28:26,534 - INFO - Update id=756933782 is handled. Duration 9621 ms by bot id=7695324456
+2025-01-15 14:17:02,169 - DEBUG - Using selector: KqueueSelector
+2025-01-15 14:17:02,169 - INFO - Бот запускается...
+2025-01-15 14:17:04,912 - INFO - Start polling
+2025-01-15 14:17:04,965 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-15 14:17:30,743 - INFO - Update id=756933783 is handled. Duration 196 ms by bot id=7695324456
+2025-01-15 14:17:44,664 - DEBUG - Starting new HTTPS connection (1): muzofond.fm:443
+2025-01-15 14:17:44,816 - DEBUG - https://muzofond.fm:443 "GET /collections/albums/linkin%20park%20zero HTTP/1.1" 200 None
+2025-01-15 14:17:44,914 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:45,070 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxNy81NDQwMjE3Lm1wMw== HTTP/1.1" 200 357120
+2025-01-15 14:17:45,268 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:45,361 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDAwLzkwMy81NDAwOTAzLm1wMw== HTTP/1.1" 200 7798192
+2025-01-15 14:17:46,249 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:46,342 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIwOS81NDQwMjA5Lm1wMw== HTTP/1.1" 200 7080192
+2025-01-15 14:17:47,153 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:47,257 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxMC81NDQwMjEwLm1wMw== HTTP/1.1" 200 6495456
+2025-01-15 14:17:48,050 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:48,145 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxMS81NDQwMjExLm1wMw== HTTP/1.1" 200 6827040
+2025-01-15 14:17:48,975 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:49,075 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxMi81NDQwMjEyLm1wMw== HTTP/1.1" 200 6169728
+2025-01-15 14:17:49,804 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:49,911 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxMy81NDQwMjEzLm1wMw== HTTP/1.1" 200 5417568
+2025-01-15 14:17:50,655 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:50,767 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxNC81NDQwMjE0Lm1wMw== HTTP/1.1" 200 4610928
+2025-01-15 14:17:51,407 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:51,500 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxNS81NDQwMjE1Lm1wMw== HTTP/1.1" 200 6691524
+2025-01-15 14:17:52,303 - DEBUG - Starting new HTTPS connection (1): dl3s2.muzofond.fm:443
+2025-01-15 14:17:52,394 - DEBUG - https://dl3s2.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQwLzIxNi81NDQwMjE2Lm1wMw== HTTP/1.1" 200 3658752
+2025-01-15 14:17:52,910 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:53,015 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDcyLzkwMy81NDcyOTAzLm1wMw== HTTP/1.1" 200 5760210
+2025-01-15 14:17:53,628 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:53,719 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY5LzA5OS81NDY5MDk5Lm1wMw== HTTP/1.1" 200 5450646
+2025-01-15 14:17:54,293 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:54,386 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDQ3Lzg0Ni81NDQ3ODQ2Lm1wMw== HTTP/1.1" 200 6618382
+2025-01-15 14:17:55,052 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:55,145 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY5LzA5OC81NDY5MDk4Lm1wMw== HTTP/1.1" 200 7087232
+2025-01-15 14:17:55,859 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:55,952 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY5LzA5Ny81NDY5MDk3Lm1wMw== HTTP/1.1" 200 6385606
+2025-01-15 14:17:56,594 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:56,687 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY5LzU1OC81NDY5NTU4Lm1wMw== HTTP/1.1" 200 4235440
+2025-01-15 14:17:57,147 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:57,240 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY1LzA2NS81NDY1MDY1Lm1wMw== HTTP/1.1" 200 6889235
+2025-01-15 14:17:57,932 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:58,024 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY1LzA2Ny81NDY1MDY3Lm1wMw== HTTP/1.1" 200 6869364
+2025-01-15 14:17:58,707 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:58,796 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDY3LzI5My81NDY3MjkzLm1wMw== HTTP/1.1" 200 5898559
+2025-01-15 14:17:59,423 - DEBUG - Starting new HTTPS connection (1): dl3s4.muzofond.fm:443
+2025-01-15 14:17:59,516 - DEBUG - https://dl3s4.muzofond.fm:443 "GET /aHR0cDovL2YubXAzcG9pc2submV0L21wMy8wMDUvNDU2LzU5NC81NDU2NTk0Lm1wMw== HTTP/1.1" 200 7068988
+2025-01-15 14:18:34,234 - INFO - Update id=756933784 is handled. Duration 49660 ms by bot id=7695324456
+2025-01-15 14:22:00,287 - DEBUG - Starting new HTTPS connection (1): www.tiktok.com:443
+2025-01-15 14:22:00,951 - DEBUG - https://www.tiktok.com:443 "GET /@shpigunov_igor/video/7432708171682090246?is_from_webapp=1&sender_device=pc HTTP/1.1" 200 None
+2025-01-15 14:22:01,130 - INFO - Update id=756933785 is handled. Duration 922 ms by bot id=7695324456
+2025-01-15 14:37:16,299 - DEBUG - Using selector: KqueueSelector
+2025-01-15 14:37:16,299 - INFO - Бот запускается...
+2025-01-15 14:37:16,468 - INFO - Start polling
+2025-01-15 14:37:16,523 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-17 11:58:46,178 - DEBUG - Using selector: KqueueSelector
+2025-01-17 11:58:46,179 - INFO - Бот запускается...
+2025-01-17 11:58:46,314 - INFO - Start polling
+2025-01-17 11:58:46,352 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-17 11:59:06,312 - INFO - Update id=756933786 is handled. Duration 10653 ms by bot id=7695324456
+2025-01-17 12:10:37,403 - DEBUG - Using selector: KqueueSelector
+2025-01-17 12:10:37,404 - INFO - Бот запускается...
+2025-01-17 12:10:37,597 - INFO - Start polling
+2025-01-17 12:10:37,643 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-17 12:10:50,506 - INFO - Update id=756933788 is handled. Duration 8279 ms by bot id=7695324456
+2025-01-17 12:13:39,468 - INFO - Update id=756933789 is handled. Duration 8268 ms by bot id=7695324456
+2025-01-20 13:14:59,637 - DEBUG - Using selector: KqueueSelector
+2025-01-20 13:14:59,637 - INFO - Бот запускается...
+2025-01-20 13:14:59,762 - INFO - Start polling
+2025-01-20 13:14:59,800 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 13:15:31,947 - INFO - Update id=756933790 is handled. Duration 218 ms by bot id=7695324456
+2025-01-20 13:15:49,626 - INFO - Update id=756933791 is handled. Duration 6173 ms by bot id=7695324456
+2025-01-20 13:15:58,240 - INFO - Update id=756933792 is handled. Duration 193 ms by bot id=7695324456
+2025-01-20 13:53:00,084 - DEBUG - Using selector: KqueueSelector
+2025-01-20 13:53:00,085 - INFO - Бот запускается...
+2025-01-20 13:53:00,281 - INFO - Start polling
+2025-01-20 13:53:00,323 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 13:53:19,639 - INFO - Update id=756933793 is handled. Duration 197 ms by bot id=7695324456
+2025-01-20 13:53:32,660 - INFO - Update id=756933794 is handled. Duration 6232 ms by bot id=7695324456
+2025-01-20 13:55:54,462 - DEBUG - Using selector: KqueueSelector
+2025-01-20 13:55:54,462 - INFO - Бот запускается...
+2025-01-20 13:55:54,729 - INFO - Start polling
+2025-01-20 13:55:54,778 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 13:56:09,230 - INFO - Update id=756933795 is handled. Duration 5653 ms by bot id=7695324456
+2025-01-20 13:57:58,858 - DEBUG - Using selector: KqueueSelector
+2025-01-20 13:57:58,858 - INFO - Бот запускается...
+2025-01-20 13:57:59,021 - INFO - Start polling
+2025-01-20 13:57:59,080 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 13:58:20,210 - INFO - Update id=756933796 is handled. Duration 5739 ms by bot id=7695324456
+2025-01-20 14:00:59,213 - DEBUG - Using selector: KqueueSelector
+2025-01-20 14:00:59,214 - INFO - Бот запускается...
+2025-01-20 14:00:59,379 - INFO - Start polling
+2025-01-20 14:00:59,435 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 14:01:21,223 - INFO - Update id=756933797 is handled. Duration 5501 ms by bot id=7695324456
+2025-01-20 14:01:30,579 - INFO - Update id=756933798 is handled. Duration 319 ms by bot id=7695324456
+2025-01-20 14:18:10,574 - DEBUG - Using selector: KqueueSelector
+2025-01-20 14:18:10,574 - INFO - Бот запускается...
+2025-01-20 14:18:10,739 - INFO - Start polling
+2025-01-20 14:18:10,791 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 14:18:25,004 - INFO - Update id=756933799 is handled. Duration 6153 ms by bot id=7695324456
+2025-01-20 14:18:26,887 - INFO - Update id=756933800 is handled. Duration 264 ms by bot id=7695324456
+2025-01-20 14:38:36,537 - DEBUG - Using selector: KqueueSelector
+2025-01-20 14:38:36,537 - INFO - Бот запускается...
+2025-01-20 14:38:36,722 - INFO - Start polling
+2025-01-20 14:38:36,774 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 14:39:02,472 - INFO - Update id=756933801 is handled. Duration 5333 ms by bot id=7695324456
+2025-01-20 14:39:05,094 - INFO - Update id=756933802 is handled. Duration 248 ms by bot id=7695324456
+2025-01-20 14:47:13,226 - DEBUG - Using selector: KqueueSelector
+2025-01-20 14:47:13,226 - INFO - Бот запускается...
+2025-01-20 14:47:13,382 - INFO - Start polling
+2025-01-20 14:47:13,429 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 14:47:28,220 - INFO - Update id=756933803 is handled. Duration 6449 ms by bot id=7695324456
+2025-01-20 14:47:30,064 - INFO - Update id=756933804 is handled. Duration 163 ms by bot id=7695324456
+2025-01-20 14:47:44,059 - INFO - Update id=756933805 is handled. Duration 5393 ms by bot id=7695324456
+2025-01-20 14:47:45,712 - INFO - Update id=756933806 is handled. Duration 142 ms by bot id=7695324456
+2025-01-20 14:49:52,996 - INFO - Update id=756933807 is handled. Duration 61 ms by bot id=7695324456
+2025-01-20 14:50:16,434 - INFO - Update id=756933808 is handled. Duration 122 ms by bot id=7695324456
+2025-01-20 14:50:25,461 - INFO - Update id=756933809 is handled. Duration 5657 ms by bot id=7695324456
+2025-01-20 14:50:28,119 - INFO - Update id=756933810 is handled. Duration 264 ms by bot id=7695324456
+2025-01-20 15:03:09,016 - DEBUG - Using selector: KqueueSelector
+2025-01-20 15:03:09,017 - INFO - Бот запускается...
+2025-01-20 15:03:09,172 - INFO - Start polling
+2025-01-20 15:03:09,222 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 15:03:26,886 - INFO - Update id=756933811 is handled. Duration 7991 ms by bot id=7695324456
+2025-01-20 15:43:51,263 - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-01-20 15:43:51,267 - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7695324456)
+2025-01-20 15:44:02,383 - INFO - Connection established (tryings = 1, bot id = 7695324456)
+2025-01-20 16:08:35,228 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:08:35,228 - INFO - Бот запускается...
+2025-01-20 16:08:35,541 - INFO - Start polling
+2025-01-20 16:08:35,593 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:09:00,279 - INFO - Update id=756933812 is handled. Duration 6890 ms by bot id=7695324456
+2025-01-20 16:10:42,623 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:10:42,623 - INFO - Бот запускается...
+2025-01-20 16:10:42,765 - INFO - Start polling
+2025-01-20 16:10:42,814 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:10:57,640 - INFO - Update id=756933813 is handled. Duration 5541 ms by bot id=7695324456
+2025-01-20 16:11:44,227 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:11:44,227 - INFO - Бот запускается...
+2025-01-20 16:11:44,397 - INFO - Start polling
+2025-01-20 16:11:44,446 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:12:04,931 - INFO - Update id=756933814 is handled. Duration 6288 ms by bot id=7695324456
+2025-01-20 16:12:55,577 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:12:55,577 - INFO - Бот запускается...
+2025-01-20 16:12:55,728 - INFO - Start polling
+2025-01-20 16:12:55,778 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:13:16,087 - INFO - Update id=756933815 is handled. Duration 5827 ms by bot id=7695324456
+2025-01-20 16:13:23,904 - INFO - Update id=756933816 is handled. Duration 149 ms by bot id=7695324456
+2025-01-20 16:13:45,467 - INFO - Update id=756933817 is handled. Duration 5412 ms by bot id=7695324456
+2025-01-20 16:13:55,303 - INFO - Update id=756933818 is handled. Duration 162 ms by bot id=7695324456
+2025-01-20 16:47:55,723 - INFO - Update id=756933819 is handled. Duration 268 ms by bot id=7695324456
+2025-01-20 16:48:23,040 - INFO - Update id=756933820 is handled. Duration 6195 ms by bot id=7695324456
+2025-01-20 16:50:38,054 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:50:38,055 - INFO - Бот запускается...
+2025-01-20 16:50:38,219 - INFO - Start polling
+2025-01-20 16:50:38,271 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:50:48,314 - INFO - Update id=756933821 is handled. Duration 203 ms by bot id=7695324456
+2025-01-20 16:50:57,494 - INFO - Update id=756933822 is handled. Duration 5506 ms by bot id=7695324456
+2025-01-20 16:51:01,118 - INFO - Update id=756933823 is not handled. Duration 422 ms by bot id=7695324456
+2025-01-20 16:51:01,118 - ERROR - Cause exception while process update id=756933823 by bot id=7695324456
+DownloadError: [0;31mERROR:[0m [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+Traceback (most recent call last):
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1637, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1772, in __extract_info
+    ie_result = ie.extract(url)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 742, in extract
+    ie_result = self._real_extract(url)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/extractor/generic.py", line 2361, in _real_extract
+    raise ExtractorError(
+        f'{url!r} is not a valid URL. '
+        f'Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:{url}" ) to search YouTube', expected=True)
+yt_dlp.utils.ExtractorError: [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/bot.py", line 166, in process_callback
+    file_path = await download_audio(url, user_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/bot.py", line 256, in download_audio
+    info = ydl.extract_info(url, download=True)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1626, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1655, in wrapper
+    self.report_error(str(e), e.format_traceback())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1095, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1034, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+2025-01-20 16:51:15,389 - INFO - Update id=756933824 is handled. Duration 174 ms by bot id=7695324456
+2025-01-20 16:51:23,550 - INFO - Update id=756933825 is handled. Duration 5235 ms by bot id=7695324456
+2025-01-20 16:51:24,783 - INFO - Update id=756933826 is not handled. Duration 189 ms by bot id=7695324456
+2025-01-20 16:51:24,783 - ERROR - Cause exception while process update id=756933826 by bot id=7695324456
+DownloadError: [0;31mERROR:[0m [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+Traceback (most recent call last):
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1637, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1772, in __extract_info
+    ie_result = ie.extract(url)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/extractor/common.py", line 742, in extract
+    ie_result = self._real_extract(url)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/extractor/generic.py", line 2361, in _real_extract
+    raise ExtractorError(
+        f'{url!r} is not a valid URL. '
+        f'Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:{url}" ) to search YouTube', expected=True)
+yt_dlp.utils.ExtractorError: [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/bot.py", line 166, in process_callback
+    file_path = await download_audio(url, user_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/bot.py", line 256, in download_audio
+    info = ydl.extract_info(url, download=True)
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1626, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1655, in wrapper
+    self.report_error(str(e), e.format_traceback())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1095, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/alekseymdvd/Documents/projects/LinkToMP3/telegram_music_bot/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py", line 1034, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m [generic] 'Аудиофайл найден. Желаете скачать?' is not a valid URL. Set --default-search "ytsearch" (or run  yt-dlp "ytsearch:Аудиофайл найден. Желаете скачать?" ) to search YouTube
+2025-01-20 16:53:50,637 - DEBUG - Using selector: KqueueSelector
+2025-01-20 16:53:50,639 - INFO - Бот запускается...
+2025-01-20 16:53:50,809 - INFO - Start polling
+2025-01-20 16:53:50,881 - INFO - Run polling for bot @LinkToMP3_bot id=7695324456 - 'LinkToMP3'
+2025-01-20 16:54:17,394 - INFO - Update id=756933827 is handled. Duration 359 ms by bot id=7695324456
+2025-01-20 16:54:25,018 - INFO - Update id=756933828 is handled. Duration 5747 ms by bot id=7695324456
+2025-01-20 16:54:33,725 - INFO - Update id=756933829 is handled. Duration 6981 ms by bot id=7695324456

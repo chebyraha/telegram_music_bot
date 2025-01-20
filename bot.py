@@ -6,12 +6,11 @@ import base64
 import logging
 
 from aiogram import Bot, Dispatcher, types, F
-from aiogram.types import Message, FSInputFile, ContentType
+from aiogram.types import Message, FSInputFile, ContentType, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.filters import Command
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from acrcloud.recognizer import ACRCloudRecognizer
-
 
 #Логированние
 logging.basicConfig(
@@ -37,8 +36,6 @@ ACR_CONFIG = {
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
-
-
 # Максимальный размер файла для Telegram (в байтах)
 TELEGRAM_FILE_SIZE_LIMIT = 20 * 1024 * 1024  # 20 MB
 
@@ -56,8 +53,6 @@ def recognize_track_from_audio(audio_path):
         result = recognizer.recognize_by_file(audio_file.name, 0)
 
     return result
-
-    print(result)
 
 #Обработчик входящих видеофайлов
 @dp.message(F.content_type == ContentType.VIDEO)
@@ -111,6 +106,16 @@ async def send_welcome(message: Message):
     )
     await message.reply(welcome_text)
 
+# Функция для создания клавиатуры с кнопками "Да" и "Нет"
+def get_audio_download_keyboard():
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [
+            InlineKeyboardButton(text="Да", callback_data="download_yes"),
+            InlineKeyboardButton(text="Нет", callback_data="download_no")
+        ]
+    ])
+    return keyboard
+
 # Хендлер для обработки ссылок
 @dp.message()
 async def handle_message(message: Message):
@@ -126,7 +131,11 @@ async def handle_message(message: Message):
         # Проверяем, является ли ссылка на YouTube
         if "youtube.com" in url or "youtu.be" in url:
             file_path = await download_audio(url, user_id)
-            await send_audio_file(file_path, message, user_id)
+            # Отправляем запрос на выбор загрузки
+            await message.reply(
+                "Аудиофайл найден. Желаете скачать?",
+                reply_markup=get_audio_download_keyboard()
+            )
             return
 
         # Если ссылка не YouTube, используем парсер
@@ -142,6 +151,30 @@ async def handle_message(message: Message):
 
     except Exception as e:
         await message.reply(f"❌ Ошибка: {e}")
+
+#Обработчик для кнопок "Да" и "Нет"
+@dp.callback_query(lambda c: c.data in ["download_yes", "download_no"])
+async def process_callback(callback_query: types.CallbackQuery):
+    user_id = callback_query.from_user.id
+    action = callback_query.data
+
+    if action == "download_yes":
+        # Получаем URL из `callback_query.message.reply_to_message.text`
+        url = callback_query.message.reply_to_message.text
+
+        try:
+            await callback_query.answer("⏳ Начинаю загрузку аудиофайла...")
+
+            # Загрузка и отправка аудиофайла
+            file_path = await download_audio(url, user_id)
+            await send_audio_file(file_path, callback_query.message, user_id)
+
+        except Exception as e:
+            await callback_query.message.reply(f"❌ Ошибка при загрузке аудиофайла: {e}")
+
+    elif action == "download_no":
+        await callback_query.answer("Отправь новую ссылку, если передумаешь!")
+        await callback_query.message.reply("Скинь ссылку для скачивания аудиофайла.")
 
 # Функция парсинга треков с HTML-страницы
 def parse_tracks_from_page(page_url, user_id):
